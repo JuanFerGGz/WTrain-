@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disponibilidad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/salud.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="../sources/images/logo de lado (1).png" alt="" srcset="">
+    </header>
+
+    <nav>
+		<ul class="menu-horizontal">
+			<li><a href="../landing.html">Inicio</a></li>
+			<li>
+				<a href="#">Modulos</a>
+				<ul class="menu-vertical">
+					<li><a href="../vistas/fitness.html">Introducción</a></li>
+					<li><a href="../vistas/basicos.html">Basicos</a></li>
+					<li><a href="../vistas/salud.html">Salud</a></li>
+                    <li><a href="../vistas/disponibilidad.html">Disponibilidad</a></li>
+					<li><a href="../vistas/tecnicas1.html">Tecnicas 1</a></li>
+					<li><a href="../vistas/personalizacion.html">Personalización</a></li>
+                    <li><a href="../vistas/tecnicas2.html">Técnicas 2</a></li>
+					<li><a href="../vistas/evaluacion.html">Evaluación</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Cuenta</a>
+				<ul class="menu-vertical">
+					<li><a href="#">Cerrar Sesión</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Contacto</a></li>
+			<li>
+				<a href="#">Otros</a>
+				<ul class="menu-vertical">
+					<li><a href="../vistas/Desarrollo.html">Inicio y Progreso</a></li>
+					<li><a href="../vistas/acerca.html">Sobre nosotros</a></li>
+			
+				</ul>
+			</li>
+
+		</ul>
+	</nav>
+
+    <section class="secc1">
+
+        <h1>Disponibilidad y tiempo</h1>
+        <hr>
+        <p>
+            Para entrenar, no son necesarias màs de 9 horas semanales (1.5horas de lunes a sabado)
+            pero de igual forma, ser FITNESS es un estilo de vida de tiempo completo, cosas ya mencionadas como
+            la alimentación, el horario de sueño y los hábitos, son fundamentales para tener una vida sana. <br><br>
+            Asì que, antes de continuar, asegúrate de estar comprometido con esto, por supuesto puedes darte tus gustos,
+            pues lo que importa es NO vivir una vida de excesos y saber lo que es bueno para ti y cuando darte esos gustos.
+
+
+        </p>
+        <hr>
+
+    </section>
+
+	<br><br><br>
+    <section class="gallery">
+
+		<div class="video-thumbnail" onclick="openModal('video1')">
+			<img src="../sources/images/450_1000.webp" alt="Video 1">
+			<h3>VIDEO SOBRE LA DISPONIBILIDAD Y EL TIEMPO NECESARIO PARA VIVIR FITNESS (grabar)</h3>
+			<p></p>
+		</div>
+	
+
+    </section>
+
+	  <!-- Modal para Video 1 -->
+	  <div id="video1" class="modal">
+		<div class="modal-content">
+		  <span class="close" onclick="closeModal('video1')">&times;</span>
+		  <video controls>
+			<source src="../sources/video/Download.mp4" type="video/mp4">
+			Tu navegador no soporta la reproducción de videos.
+		  </video>
+		</div>
+	</div>
+	
+
+	<script src="../js/ejercicios.js"></script>
+    
+</body>
+</html>

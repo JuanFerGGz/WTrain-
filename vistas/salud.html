@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud y sueño</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/salud.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="../sources/images/logo de lado (1).png" alt="" srcset="">
+    </header>
+    
+    <nav>
+		<ul class="menu-horizontal">
+			<li><a href="../landing.html">Inicio</a></li>
+			<li>
+				<a href="#">Modulos</a>
+				<ul class="menu-vertical">
+					<li><a href="../vistas/fitness.html">Introducción</a></li>
+					<li><a href="../vistas/basicos.html">Basicos</a></li>
+					<li><a href="../vistas/salud.html">Salud</a></li>
+                    <li><a href="../vistas/disponibilidad.html">Disponibilidad</a></li>
+					<li><a href="../vistas/tecnicas1.html">Tecnicas 1</a></li>
+					<li><a href="../vistas/personalizacion.html">Personalización</a></li>
+                    <li><a href="../vistas/tecnicas2.html">Técnicas 2</a></li>
+					<li><a href="../vistas/evaluacion.html">Evaluación</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Cuenta</a>
+				<ul class="menu-vertical">
+					<li><a href="#">Cerrar Sesión</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Contacto</a></li>
+			<li>
+				<a href="#">Otros</a>
+				<ul class="menu-vertical">
+					<li><a href="../vistas/Desarrollo.html">Inicio y Progreso</a></li>
+					<li><a href="../vistas/acerca.html">Sobre nosotros</a></li>
+			
+				</ul>
+			</li>
+
+		</ul>
+	</nav>
+
+    <section class="secc1">
+        <br>
+        <h1>Alimentación y sueño</h1>
+        <hr>
+        <p>La salud deportiva es fundamental para lograr un rendimiento óptimo y mantener el bienestar general. Para alcanzarla, es crucial adoptar hábitos que promuevan un equilibrio físico y mental. <br><br>
+
+            Primero, el sueño juega un papel esencial. Los estudios sugieren que los adultos deben procurar entre 7 y 9 horas de sueño por noche para una recuperación adecuada y un rendimiento óptimo. Un descanso insuficiente puede afectar negativamente la coordinación, el estado de ánimo y la capacidad de concentración. <br><br>
+            
+            En cuanto a la nutrición, los macronutrientes son clave. Las proteínas son esenciales para la reparación muscular y deben constituir aproximadamente el 10-35% de tu ingesta calórica diaria. Los carbohidratos, que son la principal fuente de energía, deben representar entre el 45-65% de tu dieta. Finalmente, las grasas saludables, como las que se encuentran en aguacates y nueces, deben cubrir el 20-35% de tus calorías diarias.
+             <br><br>
+            Además de estos aspectos, la hidratación adecuada y una rutina de ejercicios bien diseñada también son fundamentales. Mantener un equilibrio entre actividad física, nutrición y descanso no solo mejora el rendimiento deportivo, sino que también contribuye a una vida saludable y equilibrada.</p>
+            <hr>
+    </section>
+<br><br><br>
+    <section class="gallery">
+
+		<div class="video-thumbnail" onclick="openModal('video1')">
+			<img src="../sources/images/450_1000.webp" alt="Video 1">
+			<h3>VIDEO SOBRE LA SALUD FISICA Y MENTAL (grabar)</h3>
+			<p></p>
+		</div>
+	
+
+    </section>
+
+	  <!-- Modal para Video 1 -->
+	  <div id="video1" class="modal">
+		<div class="modal-content">
+		  <span class="close" onclick="closeModal('video1')">&times;</span>
+		  <video controls>
+			<source src="../sources/video/Download.mp4" type="video/mp4">
+			Tu navegador no soporta la reproducción de videos.
+		  </video>
+		</div>
+	</div>
+	
+
+	<script src="../js/ejercicios.js"></script>
+    
+</body>
+</html>

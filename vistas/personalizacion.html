@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalización</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/basicos.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="../sources/images/logo de lado (1).png" alt="" srcset="">
+    </header>
+
+    <nav>
+		<ul class="menu-horizontal">
+			<li><a href="../landing.html">Inicio</a></li>
+			<li>
+				<a href="#">Modulos</a>
+				<ul class="menu-vertical">
+					<li><a href="../vistas/fitness.html">Introducción</a></li>
+					<li><a href="../vistas/basicos.html">Basicos</a></li>
+					<li><a href="../vistas/salud.html">Salud</a></li>
+                    <li><a href="../vistas/disponibilidad.html">Disponibilidad</a></li>
+					<li><a href="../vistas/tecnicas1.html">Tecnicas 1</a></li>
+					<li><a href="../vistas/personalizacion.html">Personalización</a></li>
+                    <li><a href="../vistas/tecnicas2.html">Técnicas 2</a></li>
+					<li><a href="../vistas/evaluacion.html">Evaluación</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Cuenta</a>
+				<ul class="menu-vertical">
+					<li><a href="#">Cerrar Sesión</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Contacto</a></li>
+			<li>
+				<a href="#">Otros</a>
+				<ul class="menu-vertical">
+					<li><a href="../vistas/Desarrollo.html">Inicio y Progreso</a></li>
+					<li><a href="../vistas/acerca.html">Sobre nosotros</a></li>
+			
+				</ul>
+			</li>
+
+		</ul>
+	</nav>
+ 
+    <section class="texto">
+        <br>
+        <h1>Personalización</h1>
+        <hr>
+            <p>La personalización de rutinas de entrenamiento es el proceso de adaptar los ejercicios, el volumen, la intensidad y la frecuencia de tus sesiones de entrenamiento según tus necesidades, objetivos y características individuales. Ya sea que entrenes en un gimnasio con pesas y equipos variados o practiques calistenia con tu propio peso corporal, una rutina personalizada puede optimizar tu progreso y prevenir lesiones. <br> <br>
+
+                Evaluación de Objetivos: Antes de diseñar cualquier rutina, es crucial definir tus metas. ¿Quieres ganar masa muscular, mejorar la resistencia, perder peso, o aumentar la flexibilidad? Cada objetivo requiere un enfoque diferente.<br> <br>
+                
+                Consideraciones Personales: La personalización debe tener en cuenta factores individuales como tu nivel de experiencia, estado físico actual, historial de lesiones y preferencias. Por ejemplo, un principiante podría necesitar más tiempo para adaptarse a los ejercicios básicos, mientras que un atleta avanzado puede buscar desafíos más complejos.
+                <br> <br>
+                <strong>  Principios Básicos del Entrenamiento:</strong>
+                <br> <br>
+                Sobre carga progresiva: Incrementar gradualmente la dificultad para continuar mejorando.
+                Variedad: Cambiar los ejercicios y las rutinas para evitar la adaptación y el estancamiento.
+                Recuperación: Permitir tiempo suficiente para que los músculos se reparen y crezcan.
+                Diseño de la Rutina:
+                <br> <br>
+                Ejercicios: Seleccionar ejercicios que trabajen los grupos musculares objetivos y que sean adecuados para tu nivel.
+                Volumen y Frecuencia: Determinar cuántas series y repeticiones realizar, y cuántas veces a la semana entrenar cada grupo muscular.
+                Intensidad: Ajustar el peso o la dificultad de los ejercicios para desafiar tus capacidades sin sobrecargar.
+                Evaluación y Ajustes: Monitorear tu progreso y ajustar la rutina según sea necesario. Es importante escuchar a tu cuerpo y hacer cambios si experimentas dolor o estancamiento.
+                <br> <br>
+                En resumen, personalizar tu rutina de entrenamiento te permite maximizar los beneficios y minimizar el riesgo de lesiones. Con una planificación cuidadosa y ajustes regulares, puedes alcanzar tus objetivos de manera más eficiente y disfrutar de un progreso continuo.</p>
+            <hr>
+    </section>
+    <br><br><br>
+    <section class="gallery">
+
+		<div class="video-thumbnail" onclick="openModal('video1')">
+			<img src="../sources/images/450_1000.webp" alt="Video 1">
+			<h3>VIDEO SOBRE LA PERSONALIZACIÓN Y OBJETIVOS PROPIOS (grabar)</h3>
+			<p></p>
+		</div>
+	
+
+    </section>
+
+	  <!-- Modal para Video 1 -->
+	  <div id="video1" class="modal">
+		<div class="modal-content">
+		  <span class="close" onclick="closeModal('video1')">&times;</span>
+		  <video controls>
+			<source src="../sources/video/Download.mp4" type="video/mp4">
+			Tu navegador no soporta la reproducción de videos.
+		  </video>
+		</div>
+	</div>
+	
+
+	<script src="../js/ejercicios.js"></script>
+
+
+    
+</body>
