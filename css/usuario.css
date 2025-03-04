@@ -1,13 +1,10 @@
-body{
-    background-color: #dbdbdb;
-}
 header{
     width: 100%;
     display: flex;
-    height: auto;
     align-items: center;
     justify-content: center;
     background-color: #48AE4D;
+    height: auto;
 }
 .atras{
     width: 100%;
@@ -19,10 +16,6 @@ header{
 .logo{
     height: 100px;
 }
-.img1{
-    height: 80%;
-}
-
 nav{
 	max-width: 900px;
 	margin: auto;
@@ -65,45 +58,22 @@ nav{
 	text-decoration: none;
 	padding: 15px 15px 15px 20px;
 }
+body{
+    background-color: #dbdbdb;
+}
 h1{
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
     font-size: 300%;
+    margin-top: 4%;
 }
 hr{
+    display: flex;
+    justify-content: center;
     width: 75%;
-    display: flex;
-    justify-content: center;
-    background-color: #1f3446;
     height: 10px;
+    background-color: #1F3446;
     border-radius: 10px;
-}
-p{
-    text-align: center;
-    font-size: 200%;
-    width: 70%;
-
-}
-.texto{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-a{
-    text-decoration: none;
-   color: #4A85C5;
-}
-p{
-    font-size: 120%;
-}
-#usuario{
-    z-index: 0;
-    position: absolute;
-    margin-top: -4%;
-}
-.bebas{
-    font-family: "Bebas Neue", sans-serif;
 }
 #fondo{ 
     top: 50%;
@@ -113,7 +83,10 @@ p{
      position: absolute;
      background-attachment: fixed;
    }
-   .imgfondo{
+.imgfondo{
      width: 100vh;
      opacity: 50%;
    }
+   .bebas{
+    font-family: "Bebas Neue", sans-serif;
+}

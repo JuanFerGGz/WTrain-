@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evaluacion Final</title>
+    <title>Usuario</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/basicos.css">
+    <link rel="stylesheet" href="../css/usuario.css">
 </head>
 <body>
+    <div id="fondo"><img class="imgfondo" src="../sources/images/La W.png" alt=""></div>
     <header>
         <img class="logo" src="../sources/images/logo de lado (1).png" alt="" srcset="">
     </header>
@@ -30,7 +31,7 @@
 				</ul>
 			</li>
 			<li>
-				<a href="#">Cerrar sesión</a>
+                <a href="#">Cerrar sesión</a>
 			</li>
 			<li><a href="#">Contacto</a></li>
 			<li>
@@ -44,37 +45,20 @@
 
 		</ul>
 	</nav>
-	<div class="atras"><a href="javascript:history.back()"><img src="../sources/images/atras.png" height="33" width="100" alt="Botón"></a></div>
-    <div id="usuario"><a href="../vistas/usuario.html"><img src="../sources/images/usuario.png"width="100" alt="Botón"></a></div>
+    <div class="atras"><a href="javascript:history.back()"><img src="../sources/images/atras.png" height="33" width="100" alt="Botón"></a></div>
 
-	<div id="fondo"><img class="imgfondo" src="../sources/images/La W.png" alt=""></div>
-    
-    <section class="texto">
-        <br>
-        <h1>evaluacion final</h1>
-        <hr>
-            <p>Finalmente has superado todas las etapas y módulos de este curso, desde el equipo de trabajo esperamos que hayas tenido una buena experiencia navegando y aprendiendo en la página, este será tu desafío final, una evaluación en la cuál pondrás a prueva todos tus conocimientos y verificarás si eres apto para continuar por tu cuenta en este mundo llamado FITNESS. al aprobar correctamente
-                se te enviara un certificado por medio de correo electrónico que hayas proporcionado en el formulario.
-            </p>
-            <hr>
-    </section>
+    <h1>Estás en nivel PRINCIPIANTE</h1>
+    <hr>
 
-    <section class="texto">
-
-        <hr>
-        <p>Entra a la evaluación AQUÍ</p>
-        <hr>
-
-    </section>
+    <section class="info"></section>
 
     <script>
         window.addEventListener('scroll', function() {
             var imagen = document.getElementById('fondo');
-            var offset = window.pageYOffset; 
-            imagen.style.transform = 'translateY(' + offset * 1 + 'px)'; 
+            var offset = window.pageYOffset; // Obtiene la distancia de desplazamiento de la página
+            imagen.style.transform = 'translateY(' + offset * 0.3 + 'px)'; // La imagen se mueve con el scroll
         });
-
     </script>
 
-    
 </body>
+</html>

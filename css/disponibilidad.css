@@ -9,6 +9,13 @@ header{
     justify-content: center;
     background-color: #48AE4D;
 }
+.atras{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  z-index: auto;
+  margin-top: -60px;
+}
 .logo{
     height: 100px;
 }
@@ -74,6 +81,7 @@ hr{
     border-radius: 10px;
 }
 p{
+  font-family: robo;
     text-align: center;
     font-size: 125%;
     width: 70%;
@@ -147,4 +155,23 @@ p{
     color: #000;
     text-decoration: none;
   }
-  
+  #usuario{
+    z-index: 0;
+    position: absolute;
+    margin-top: -4%;
+}
+.bebas{
+  font-family: "Bebas Neue", sans-serif;
+}
+#fondo{ 
+    top: 50%;
+    left: 25%;
+    z-index: -1;
+     height: 100vh;
+     position: absolute;
+     background-attachment: fixed;
+   }
+   .imgfondo{
+     width: 100vh;
+     opacity: 50%;
+   }

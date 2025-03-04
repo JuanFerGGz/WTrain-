@@ -6,7 +6,13 @@ header {
     background-color: #48AE4D;
     height: auto;
 }
-
+.atras{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    z-index: auto;
+    margin-top: -60px;
+}
 .logo {
     height: 100px;
 }
@@ -149,3 +155,23 @@ h1{
     font-family: "Bebas Neue", sans-serif;
     font-size: 300%;
 }
+#usuario{
+    z-index: 0;
+    position: absolute;
+    margin-top: -4%;
+}
+.bebas{
+    font-family: "Bebas Neue", sans-serif;
+}
+#fondo{ 
+    top: 50%;
+    left: 25%;
+    z-index: -1;
+     height: 100vh;
+     position: absolute;
+     background-attachment: fixed;
+   }
+.imgfondo{
+     width: 100vh;
+     opacity: 50%;
+   }

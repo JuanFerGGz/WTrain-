@@ -19,10 +19,6 @@ header{
 .logo{
     height: 100px;
 }
-.img1{
-    height: 80%;
-}
-
 nav{
 	max-width: 900px;
 	margin: auto;
@@ -68,42 +64,35 @@ nav{
 h1{
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 300%;
-}
-hr{
-    width: 75%;
-    display: flex;
-    justify-content: center;
-    background-color: #1f3446;
-    height: 10px;
-    border-radius: 10px;
-}
-p{
-    text-align: center;
-    font-size: 200%;
-    width: 70%;
-
-}
-.texto{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-a{
-    text-decoration: none;
-   color: #4A85C5;
-}
-p{
-    font-size: 120%;
-}
-#usuario{
-    z-index: 0;
-    position: absolute;
-    margin-top: -4%;
 }
 .bebas{
     font-family: "Bebas Neue", sans-serif;
+}
+.card{
+    background-color: rgb(58, 61, 67);
+    display: flex;
+    width: 40%;
+    color: white;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+    max-height: 256px;
+    border-radius: 20px;
+    min-width: 25%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+a{
+   
+    color: white;
 }
 #fondo{ 
     top: 50%;
@@ -111,9 +100,21 @@ p{
     z-index: -1;
      height: 100vh;
      position: absolute;
-     background-attachment: fixed;
+
    }
    .imgfondo{
      width: 100vh;
      opacity: 50%;
    }
+   #usuario{
+    z-index: 0;
+    position: absolute;
+    margin-top: -4%;
+}
+.texto{
+    width: 75%;
+    text-align: center;
+}
+.imagen{
+    width: 20%
+}

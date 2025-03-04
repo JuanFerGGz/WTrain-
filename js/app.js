@@ -7,7 +7,7 @@
         card.classList.add("card")
         card.innerHTML = `  
             
-                    <img src="${item.image}" alt="">
+                    <img class="imagen"  src="${item.image}" alt="">
                     <div class="texto">
                     <a href="${item.enlace}"><h1>${item.categoria}</h1></a>
                     <p>${item.descripcion}</p>

@@ -8,33 +8,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/salud.css">
+	
 </head>
 <body>
     <header>
         <img class="logo" src="../sources/images/logo de lado (1).png" alt="" srcset="">
     </header>
 
-    <nav>
+    <nav class="bebas">
 		<ul class="menu-horizontal">
 			<li><a href="../landing.html">Inicio</a></li>
 			<li>
-				<a href="#">Modulos</a>
+				<a href="../vistas/Módulos.html">Módulos</a>
 				<ul class="menu-vertical">
 					<li><a href="../vistas/fitness.html">Introducción</a></li>
-					<li><a href="../vistas/basicos.html">Basicos</a></li>
+					<li><a href="../vistas/basicos.html">Básicos</a></li>
 					<li><a href="../vistas/salud.html">Salud</a></li>
                     <li><a href="../vistas/disponibilidad.html">Disponibilidad</a></li>
-					<li><a href="../vistas/tecnicas1.html">Tecnicas 1</a></li>
+					<li><a href="../vistas/tecnicas1.html">Técnicas 1</a></li>
 					<li><a href="../vistas/personalizacion.html">Personalización</a></li>
                     <li><a href="../vistas/tecnicas2.html">Técnicas 2</a></li>
 					<li><a href="../vistas/evaluacion.html">Evaluación</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="#">Cuenta</a>
-				<ul class="menu-vertical">
-					<li><a href="#">Cerrar Sesión</a></li>
-				</ul>
+				<a href="#">Cerrar sesión</a>
 			</li>
 			<li><a href="#">Contacto</a></li>
 			<li>
@@ -48,7 +46,10 @@
 
 		</ul>
 	</nav>
+	<div class="atras"><a href="javascript:history.back()"><img src="../sources/images/atras.png" height="33" width="100" alt="Botón"></a></div>
+	<div id="usuario"><a href="../vistas/usuario.html"><img src="../sources/images/usuario.png"width="100" alt="Botón"></a></div>
 
+	<div id="fondo"><img class="imgfondo" src="../sources/images/La W.png" alt=""></div>
     <section class="secc1">
 
         <h1>Disponibilidad y tiempo</h1>
@@ -89,7 +90,14 @@
 		</div>
 	</div>
 	
+	<script>
+        window.addEventListener('scroll', function() {
+            var imagen = document.getElementById('fondo');
+            var offset = window.pageYOffset; 
+            imagen.style.transform = 'translateY(' + offset * 1 + 'px)'; 
+        });
 
+    </script>
 	<script src="../js/ejercicios.js"></script>
     
 </body>
