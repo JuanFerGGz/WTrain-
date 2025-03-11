@@ -1,5 +1,24 @@
-body{
-    background-color: #dbdbdb;
+*{
+  padding: 0%;
+  margin: 0;
+}
+body {
+  background-color: #dbdbdb;
+  background-image: url("../sources/images/La W.png");
+  background-repeat: no-repeat;
+  background-position: center 300px;
+  background-size: 50%;
+}
+
+.wrap{
+  background-color: #dbdbdbb8;
+}
+.atras{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  z-index: auto;
+  margin-top: -30px;
 }
 header{
     width: 100%;
@@ -9,18 +28,8 @@ header{
     justify-content: center;
     background-color: #48AE4D;
 }
-.atras{
-  width: 100%;
-  display: flex;
-  justify-content: right;
-  z-index: auto;
-  margin-top: -60px;
-}
-.atras{
-  width: 200vh;
-  display: flex;
-  justify-content: right;
-}
+
+
 .logo{
     height: 100px;
 }

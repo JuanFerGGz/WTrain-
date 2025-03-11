@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/salud.css">
 </head>
 <body>
+	<div class="wrap">
     <header>
         <img class="logo" src="../sources/images/logo de lado (1).png" alt="" srcset="">
     </header>
@@ -48,18 +49,18 @@
 	<div class="atras"><a href="javascript:history.back()"><img src="../sources/images/atras.png" height="33" width="100" alt="Botón"></a></div>
 	<div id="usuario"><a href="../vistas/usuario.html"><img src="../sources/images/usuario.png"width="100" alt="Botón"></a></div>
 
-	<div id="fondo"><img class="imgfondo" src="../sources/images/La W.png" alt=""></div>
+	
     <section class="secc1">
-        <br>
-        <h1>Alimentación y sueño</h1>
-        <hr>
+        <br><br>
+        <h1>Alimentación y sueño</h1><br>
+        <hr><br>
         <p>La salud deportiva es fundamental para lograr un rendimiento óptimo y mantener el bienestar general. Para alcanzarla, es crucial adoptar hábitos que promuevan un equilibrio físico y mental. <br><br>
 
             Primero, el sueño juega un papel esencial. Los estudios sugieren que los adultos deben procurar entre 7 y 9 horas de sueño por noche para una recuperación adecuada y un rendimiento óptimo. Un descanso insuficiente puede afectar negativamente la coordinación, el estado de ánimo y la capacidad de concentración. <br><br>
             
             En cuanto a la nutrición, los macronutrientes son clave. Las proteínas son esenciales para la reparación muscular y deben constituir aproximadamente el 10-35% de tu ingesta calórica diaria. Los carbohidratos, que son la principal fuente de energía, deben representar entre el 45-65% de tu dieta. Finalmente, las grasas saludables, como las que se encuentran en aguacates y nueces, deben cubrir el 20-35% de tus calorías diarias.
              <br><br>
-            Además de estos aspectos, la hidratación adecuada y una rutina de ejercicios bien diseñada también son fundamentales. Mantener un equilibrio entre actividad física, nutrición y descanso no solo mejora el rendimiento deportivo, sino que también contribuye a una vida saludable y equilibrada.</p>
+            Además de estos aspectos, la hidratación adecuada y una rutina de ejercicios bien diseñada también son fundamentales. Mantener un equilibrio entre actividad física, nutrición y descanso no solo mejora el rendimiento deportivo, sino que también contribuye a una vida saludable y equilibrada.</p><br>
             <hr>
     </section>
 <br><br><br>
@@ -83,16 +84,19 @@
 			Tu navegador no soporta la reproducción de videos.
 		  </video>
 		</div>
-	</div>
-	
+	</div><br><br>
+</div>
 	<script>
         window.addEventListener('scroll', function() {
-            var imagen = document.getElementById('fondo');
+            var imagen = document.querySelector('body');
             var offset = window.pageYOffset; 
-            imagen.style.transform = 'translateY(' + offset * 1 + 'px)'; 
+
+            imagen.style.backgroundPosition = `center ${300+(offset*1)}px`; 
+            console.log(imagen, offset)
         });
 
     </script>
+
 	<script src="../js/ejercicios.js"></script>
     
 </body>

@@ -6,13 +6,28 @@ header {
     background-color: #48AE4D;
     height: auto;
 }
-.atras{
+*{
+    padding: 0%;
+    margin: 0;
+  }
+  body {
+    background-color: #dbdbdb;
+    background-image: url("../sources/images/La W.png");
+    background-repeat: no-repeat;
+    background-position: center 300px;
+    background-size: 50%;
+  }
+  
+  .wrap{
+    background-color: #dbdbdbb8;
+  }
+  .atras{
     width: 100%;
     display: flex;
     justify-content: right;
     z-index: auto;
-    margin-top: -60px;
-}
+    margin-top: -30px;
+  }
 .logo {
     height: 100px;
 }
@@ -70,16 +85,20 @@ body {
     margin-top: 4%;
 }
 
-hr {
+hr{
+    width: 75%;
     display: flex;
     justify-content: center;
-    width: 75%;
+    background-color: #1f3446;
     height: 10px;
-    background-color: #1F3446;
     border-radius: 10px;
-    margin-top: 2%;
 }
-
+.texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 /* Contenedor principal que agrupa el slider y la imagen */
 .content-wrapper {
     display: flex;

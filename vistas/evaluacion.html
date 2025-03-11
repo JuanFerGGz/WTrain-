@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/basicos.css">
 </head>
-<body>
+<body> <div class="wrap">
     <header>
         <img class="logo" src="../sources/images/logo de lado (1).png" alt="" srcset="">
     </header>
@@ -32,12 +32,13 @@
 			<li>
 				<a href="#">Cerrar sesión</a>
 			</li>
-			<li><a href="#">Contacto</a></li>
+			<li><a href="../vistas/usuario.html"><img src="../sources/images/usuario.png"width="30" alt="Botón"></a></li>
 			<li>
 				<a href="#">Otros</a>
 				<ul class="menu-vertical">
 					<li><a href="../vistas/Desarrollo.html">Inicio y Progreso</a></li>
 					<li><a href="../vistas/acerca.html">Sobre nosotros</a></li>
+                    
 			
 				</ul>
 			</li>
@@ -47,34 +48,36 @@
 	<div class="atras"><a href="javascript:history.back()"><img src="../sources/images/atras.png" height="33" width="100" alt="Botón"></a></div>
     <div id="usuario"><a href="../vistas/usuario.html"><img src="../sources/images/usuario.png"width="100" alt="Botón"></a></div>
 
-	<div id="fondo"><img class="imgfondo" src="../sources/images/La W.png" alt=""></div>
+	
     
     <section class="texto">
-        <br>
-        <h1>evaluacion final</h1>
-        <hr>
+        <br><br>
+        <h1>evaluacion final</h1><br>
+        <hr><br>
             <p>Finalmente has superado todas las etapas y módulos de este curso, desde el equipo de trabajo esperamos que hayas tenido una buena experiencia navegando y aprendiendo en la página, este será tu desafío final, una evaluación en la cuál pondrás a prueva todos tus conocimientos y verificarás si eres apto para continuar por tu cuenta en este mundo llamado FITNESS. al aprobar correctamente
                 se te enviara un certificado por medio de correo electrónico que hayas proporcionado en el formulario.
             </p>
-            <hr>
+            
     </section>
 
     <section class="texto">
-
+<br>
         <hr>
-        <p>Entra a la evaluación AQUÍ</p>
-        <hr>
+     <br>   <p>Entra a la evaluación AQUÍ</p><br>
+        <hr><br><br><br><br><br><br><br><br><br><br>
 
     </section>
+</div>
+<script>
+	window.addEventListener('scroll', function() {
+		var imagen = document.querySelector('body');
+		var offset = window.pageYOffset; 
 
-    <script>
-        window.addEventListener('scroll', function() {
-            var imagen = document.getElementById('fondo');
-            var offset = window.pageYOffset; 
-            imagen.style.transform = 'translateY(' + offset * 1 + 'px)'; 
-        });
+		imagen.style.backgroundPosition = `center ${300+(offset*1)}px`; 
+		console.log(imagen, offset)
+	});
 
-    </script>
+</script>
 
     
 </body>

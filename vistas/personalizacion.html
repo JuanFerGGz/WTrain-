@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/basicos.css">
 </head>
-<body>
+<body> <div class="wrap">
     <header>
         <img class="logo" src="../sources/images/logo de lado (1).png" alt="" srcset="">
     </header>
@@ -49,12 +49,11 @@
 
 	<div id="usuario"><a href="../vistas/usuario.html"><img src="../sources/images/usuario.png"width="100" alt="Botón"></a></div>
 
-	<div id="fondo"><img class="imgfondo" src="../sources/images/La W.png" alt=""></div>
 
     <section class="texto">
-        <br>
-        <h1>Personalización</h1>
-        <hr>
+        <br><br>
+        <h1>Personalización</h1><br>
+        <hr><br>
             <p>La personalización de rutinas de entrenamiento es el proceso de adaptar los ejercicios, el volumen, la intensidad y la frecuencia de tus sesiones de entrenamiento según tus necesidades, objetivos y características individuales. Ya sea que entrenes en un gimnasio con pesas y equipos variados o practiques calistenia con tu propio peso corporal, una rutina personalizada puede optimizar tu progreso y prevenir lesiones. <br> <br>
 
                 Evaluación de Objetivos: Antes de diseñar cualquier rutina, es crucial definir tus metas. ¿Quieres ganar masa muscular, mejorar la resistencia, perder peso, o aumentar la flexibilidad? Cada objetivo requiere un enfoque diferente.<br> <br>
@@ -73,7 +72,7 @@
                 Intensidad: Ajustar el peso o la dificultad de los ejercicios para desafiar tus capacidades sin sobrecargar.
                 Evaluación y Ajustes: Monitorear tu progreso y ajustar la rutina según sea necesario. Es importante escuchar a tu cuerpo y hacer cambios si experimentas dolor o estancamiento.
                 <br> <br>
-                En resumen, personalizar tu rutina de entrenamiento te permite maximizar los beneficios y minimizar el riesgo de lesiones. Con una planificación cuidadosa y ajustes regulares, puedes alcanzar tus objetivos de manera más eficiente y disfrutar de un progreso continuo.</p>
+                En resumen, personalizar tu rutina de entrenamiento te permite maximizar los beneficios y minimizar el riesgo de lesiones. Con una planificación cuidadosa y ajustes regulares, puedes alcanzar tus objetivos de manera más eficiente y disfrutar de un progreso continuo.</p><br>
             <hr>
     </section>
     <br><br><br>
@@ -97,16 +96,19 @@
 			Tu navegador no soporta la reproducción de videos.
 		  </video>
 		</div>
-	</div>
-	
-	<script>
-        window.addEventListener('scroll', function() {
-            var imagen = document.getElementById('fondo');
-            var offset = window.pageYOffset; 
-            imagen.style.transform = 'translateY(' + offset * 1 + 'px)'; 
-        });
+	</div><br><br>
+</div>
+<script>
+	window.addEventListener('scroll', function() {
+		var imagen = document.querySelector('body');
+		var offset = window.pageYOffset; 
 
-    </script>
+		imagen.style.backgroundPosition = `center ${300+(offset*1)}px`; 
+		console.log(imagen, offset)
+	});
+
+</script>
+
 	<script src="../js/ejercicios.js"></script>
 
 

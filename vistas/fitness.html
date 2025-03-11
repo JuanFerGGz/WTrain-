@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/fitness.css">
 </head>
 <body>
+    <div class="wrap">
     <header>
         <img class="logo" src="../sources/images/logo de lado (1).png" alt="" srcset="">
     </header>
@@ -47,13 +48,13 @@
 	<div class="atras"><a href="javascript:history.back()"><img src="../sources/images/atras.png" height="33" width="100" alt="Botón"></a></div>
     <div id="usuario"><a href="../vistas/usuario.html"><img src="../sources/images/usuario.png"width="100" alt="Botón"></a></div>
 
-	<div id="fondo"><img class="imgfondo" src="../sources/images/La W.png" alt=""></div>
 
 
-    <br>
-   <h1>Introducción al Fitness</h1> 
+<br><br>
+  
+   <h1>Introducción al Fitness</h1> <br>
    <div class="texto">
-   <hr>
+   <hr><br>
    <p>El concepto moderno de fitness tiene raíces profundas que se remontan a la antigua Grecia. En aquella época, los griegos valoraban la preparación física como un pilar fundamental de la vida equilibrada y saludable. Los Juegos Olímpicos, iniciados en el 776 a.C., eran una manifestación de esta filosofía, celebrando la excelencia física y el atletismo. <br><br>
 
     Durante el Renacimiento, el interés por el bienestar físico se renovó con la obra de figuras como Giovanni de Bardi y el redescubrimiento de técnicas de entrenamiento clásicas. Sin embargo, fue en el siglo XIX cuando el fitness moderno comenzó a tomar forma, gracias a pioneros como Eugen Sandow, conocido como el "padre del culturismo", quien promovió el entrenamiento con pesas y la importancia del desarrollo muscular.
@@ -63,29 +64,33 @@
 
     EN ESTE CURSO SE PROPORCIONARÁN LOS METODOS GENERALES PARA LA MEJORA DEL ACONDICIONAMIENTO Y EL ESTADO FÍSICO
    </p>
-
+<br>
    <hr>
 </div>
 <br>
 <br>
 <section class="texto">
 
-    <h1>Acondicionamiento</h1>
+    <h1>Acondicionamiento</h1><br>
     <br>
-    <hr>
+    <hr><br>
     <p>Entonces, para empezar a entender cómo se debe entrenar primero necesitas prepararte y experimentar. Es importante que lleves un registro de tus marcas y objetivos, asi que empezaremos por
         realizar ejercicios básicos para entrenar en base a nuestra capacidad, para comenzar da click <a href="../vistas/basicos.html">AQUÍ</a>
-    </p> 
+    </p> <br><br>
 </section>
 <br>
 <br>
+</div>
 <script>
     window.addEventListener('scroll', function() {
-        var imagen = document.getElementById('fondo');
+        var imagen = document.querySelector('body');
         var offset = window.pageYOffset; 
-        imagen.style.transform = 'translateY(' + offset * 0.75 + 'px)'; 
+
+        imagen.style.backgroundPosition = `center ${300+(offset*0.75)}px`; 
+        console.log(imagen, offset)
     });
 
 </script>
+
 </body>
 </html>

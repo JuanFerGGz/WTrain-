@@ -13,7 +13,7 @@
     <img class="logo" src="../sources/images/logo de lado (2).png" alt="">
 </header>
 <body>
-
+<div class="wrap">
     <nav class="bebas">
 		<ul class="menu-horizontal">
 			<li><a href="../index.html">Inicio</a></li>
@@ -48,7 +48,7 @@
     <div class="atras"><a href="javascript:history.back()"><img src="../sources/images/atras.png" height="33" width="100" alt="Botón"></a></div>
     <div id="usuario"><a href="../vistas/usuario.html"><img src="../sources/images/usuario.png"width="100" alt="Botón"></a></div>
 
-	<div id="fondo"><img class="imgfondo" src="../sources/images/La W.png" alt=""></div>
+	
     <section class="s1">
         <h1 class="tit">¿DE QUÉ TRATA?</h1>
         <br>
@@ -85,7 +85,7 @@
             <h1 class="tit3">ACERCA DE NOSOTROS</h1>
             <br><br>
         </section>
-        <hr class="hr3">
+        <hr class="hr2">
         <div class="cuadros">
             <div class="personajes">
                 <div class="informacion izquierda">
@@ -134,19 +134,20 @@
                 </div>
             </div>
         </div>
-        <hr class="hr4">
+        <hr class="hr2">
     </body>
             
-
+</div>
     <script>
         window.addEventListener('scroll', function() {
-            var imagen = document.getElementById('fondo');
+            var imagen = document.querySelector('body');
             var offset = window.pageYOffset; 
-            imagen.style.transform = 'translateY(' + offset * 0.90 + 'px)'; 
+    
+            imagen.style.backgroundPosition = `center ${300+(offset*0.90)}px`; 
+            console.log(imagen, offset)
         });
-
+    
     </script>
-
 
 </body>
 </html>

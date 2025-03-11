@@ -1,3 +1,25 @@
+*{
+    padding: 0%;
+    margin: 0;
+  }
+  body {
+    background-color: #dbdbdb;
+    background-image: url("../sources/images/La W.png");
+    background-repeat: no-repeat;
+    background-position: center 300px;
+    background-size: 50%;
+  }
+  
+  .wrap{
+    background-color: #dbdbdbb8;
+  }
+  .atras{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    z-index: auto;
+    margin-top: -30px;
+  }
 header{
     width: 100%;
     display: flex;
@@ -6,13 +28,7 @@ header{
     background-color: #48AE4D;
     height: auto;
 }
-.atras{
-    width: 100%;
-    display: flex;
-    justify-content: right;
-    z-index: auto;
-    margin-top: -60px;
-}
+
 .logo{
     height: 100px;
 }
@@ -134,14 +150,7 @@ hr{
     flex-direction: column;
     margin-top: 50px;
 }
-.hr3{
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    height: 10px;
-    background-color: #1F3446;
-    border-radius: 10px;
-}
+
  .cuadros {
     display: flex;
     align-items: center;
@@ -183,15 +192,7 @@ hr{
     max-width: 100%;
     max-height: 100%;
 }
-.hr4{
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    height: 10px;
-    background-color: #1F3446;
-    border-radius: 10px;
-    margin-top: 2%;
-}
+
 h1{
     text-align: center;
     font-family: "Bebas Neue", sans-serif;

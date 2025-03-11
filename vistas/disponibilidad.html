@@ -11,6 +11,7 @@
 	
 </head>
 <body>
+	<div class="wrap">
     <header>
         <img class="logo" src="../sources/images/logo de lado (1).png" alt="" srcset="">
     </header>
@@ -49,11 +50,11 @@
 	<div class="atras"><a href="javascript:history.back()"><img src="../sources/images/atras.png" height="33" width="100" alt="Botón"></a></div>
 	<div id="usuario"><a href="../vistas/usuario.html"><img src="../sources/images/usuario.png"width="100" alt="Botón"></a></div>
 
-	<div id="fondo"><img class="imgfondo" src="../sources/images/La W.png" alt=""></div>
+	
     <section class="secc1">
-
-        <h1>Disponibilidad y tiempo</h1>
-        <hr>
+<br><br>
+        <h1>Disponibilidad y tiempo</h1><br>
+        <hr><br>
         <p>
             Para entrenar, no son necesarias màs de 9 horas semanales (1.5horas de lunes a sabado)
             pero de igual forma, ser FITNESS es un estilo de vida de tiempo completo, cosas ya mencionadas como
@@ -62,9 +63,9 @@
             pues lo que importa es NO vivir una vida de excesos y saber lo que es bueno para ti y cuando darte esos gustos.
 
 
-        </p>
+        </p><br>
         <hr>
-
+<br>
     </section>
 
 	<br><br><br>
@@ -88,16 +89,19 @@
 			Tu navegador no soporta la reproducción de videos.
 		  </video>
 		</div>
-	</div>
-	
-	<script>
-        window.addEventListener('scroll', function() {
-            var imagen = document.getElementById('fondo');
-            var offset = window.pageYOffset; 
-            imagen.style.transform = 'translateY(' + offset * 1 + 'px)'; 
-        });
+	</div><br><br>
+</div>
+<script>
+	window.addEventListener('scroll', function() {
+		var imagen = document.querySelector('body');
+		var offset = window.pageYOffset; 
 
-    </script>
+		imagen.style.backgroundPosition = `center ${300+(offset*0.90)}px`; 
+		console.log(imagen, offset)
+	});
+
+</script>
+
 	<script src="../js/ejercicios.js"></script>
     
 </body>
