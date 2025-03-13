@@ -4,15 +4,13 @@
   }
   body {
     background-color: #dbdbdb;
-    background-image: url("../sources/images/La W.png");
-    background-repeat: no-repeat;
-    background-position: center 300px;
-    background-size: 50%;
   }
   
-  .wrap{
-    background-color: #dbdbdbb8;
-  }
+.examen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   .atras{
     width: 100%;
     display: flex;
@@ -73,62 +71,4 @@ nav{
 	color: white;
 	text-decoration: none;
 	padding: 15px 15px 15px 20px;
-}
-h1{
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-}
-.bebas{
-    font-family: "Bebas Neue", sans-serif;
-}
-.card{
-    background-color: rgb(58, 61, 67);
-    display: flex;
-    width: 40%;
-    color: white;
-    text-align: left;
-    align-items: center;
-    gap: 20px;
-    min-height: 300px;
-
-    border-radius: 20px;
-    min-width: 25%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 25px;
-}
-a{
-   
-    color: white;
-}
-#fondo{ 
-    top: 50%;
-    left: 25%;
-    z-index: -1;
-     height: 100vh;
-     position: absolute;
-
-   }
-   .imgfondo{
-     width: 100vh;
-     opacity: 50%;
-   }
-   #usuario{
-    z-index: 0;
-    position: absolute;
-    margin-top: -4%;
-}
-.texto{
-    width: 75%;
-    text-align: center;
-}
-.imagen{
-    width: 20%
 }

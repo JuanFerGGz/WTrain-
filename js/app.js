@@ -10,6 +10,7 @@
                     <img class="imagen"  src="${item.image}" alt="">
                     <div class="texto">
                     <a href="${item.enlace}"><h1>${item.categoria}</h1></a>
+                    <br>
                     <p>${item.descripcion}</p>
                 
             
