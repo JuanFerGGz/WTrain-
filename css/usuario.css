@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     width: 100%;
     display: flex;
@@ -11,7 +15,7 @@ header{
     display: flex;
     justify-content: right;
     z-index: auto;
-    margin-top: -60px;
+    margin-top: -30px;
 }
 .logo{
     height: 100px;
@@ -24,6 +28,7 @@ nav{
 	margin-top: 50px;
 }
 .menu-horizontal{
+    align-items: center;
     margin-top: -5.7%;
 	list-style: none;
 	display: flex;
@@ -31,7 +36,7 @@ nav{
 }
 .menu-horizontal > li > a{
 	display: block;
-	padding: 15px 20px;
+	padding: 6px 20px;
 	color: white;
 	text-decoration: none;
 }
@@ -90,3 +95,63 @@ hr{
    .bebas{
     font-family: "Bebas Neue", sans-serif;
 }
+.panel{
+    background-color: #ffff;
+    border: solid 4px #48AE4D;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 5%;
+    text-align: center;
+    align-items: center;
+}
+.imagennn{
+    width: 100%;
+}
+.imagenn{
+    width: 256px;
+    height: 256px;
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.desc{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.info{
+    display: flex;
+}
+.bar{
+    overflow: hidden;
+    height: 30px;
+    width: 500px;
+    border: 5px solid black;
+    border-radius: 30px;
+    background-color: rgb(233, 233, 233);
+    margin-top: 30px;
+
+}
+.progress{
+    width: 0%;
+    height: 100%;
+    transition-duration: .5s;
+    background-color: green;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.btnVideo{
+    cursor: pointer;
+}
+.user{
+    width: 40px;
+  }
+  .coso{
+    padding-top: -100px;
+  }

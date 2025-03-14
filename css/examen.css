@@ -38,6 +38,7 @@ nav{
 	margin-top: 50px;
 }
 .menu-horizontal{
+  align-items: center;
     margin-top: -5.7%;
 	list-style: none;
 	display: flex;
@@ -45,7 +46,7 @@ nav{
 }
 .menu-horizontal > li > a{
 	display: block;
-	padding: 15px 20px;
+	padding: 6px 20px;
 	color: white;
 	text-decoration: none;
 }
@@ -71,4 +72,10 @@ nav{
 	color: white;
 	text-decoration: none;
 	padding: 15px 15px 15px 20px;
+}
+.user{
+  width: 40px;
+}
+.coso{
+  padding-top: -100px;
 }

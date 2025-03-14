@@ -40,6 +40,7 @@ nav{
 	margin-top: 50px;
 }
 .menu-horizontal{
+  align-items: center;
     margin-top: -5.7%;
 	list-style: none;
 	display: flex;
@@ -47,7 +48,7 @@ nav{
 }
 .menu-horizontal > li > a{
 	display: block;
-	padding: 15px 20px;
+	padding: 6px 20px;
 	color: white;
 	text-decoration: none;
 }
@@ -108,23 +109,6 @@ a{
    
     color: white;
 }
-#fondo{ 
-    top: 50%;
-    left: 25%;
-    z-index: -1;
-     height: 100vh;
-     position: absolute;
-
-   }
-   .imgfondo{
-     width: 100vh;
-     opacity: 50%;
-   }
-   #usuario{
-    z-index: 0;
-    position: absolute;
-    margin-top: -4%;
-}
 .texto{
     width: 75%;
     text-align: center;
@@ -132,3 +116,9 @@ a{
 .imagen{
     width: 20%
 }
+.user{
+    width: 40px;
+  }
+  .coso{
+    padding-top: -100px;
+  }

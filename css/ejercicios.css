@@ -28,6 +28,7 @@ nav{
 	margin-top: 50px;
 }
 .menu-horizontal{
+  align-items: center;
     margin-top: -5.7%;
 	list-style: none;
 	display: flex;
@@ -35,7 +36,7 @@ nav{
 }
 .menu-horizontal > li > a{
 	display: block;
-	padding: 15px 20px;
+	padding: 6px 20px;
 	color: white;
 	text-decoration: none;
 }
@@ -62,11 +63,16 @@ nav{
 	text-decoration: none;
 	padding: 15px 15px 15px 20px;
 }
-body{
-    background-color: #dbdbdb;
-    font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+body {
+  background-color: #dbdbdb;
+  background-image: url("../sources/images/La W.png");
+  background-repeat: no-repeat;
+  background-position: center 300px;
+  background-size: 50%;
+}
+
+.wrap{
+  background-color: #dbdbdbb8;
 }
 .ejercicios{
     display: flex;
@@ -212,3 +218,9 @@ h1{
    width: 100vh;
    opacity: 50%;
  }
+ .user{
+  width: 40px;
+}
+.coso{
+  padding-top: -100px;
+}

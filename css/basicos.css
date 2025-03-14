@@ -41,6 +41,7 @@ nav{
 	margin-top: 50px;
 }
 .menu-horizontal{
+  align-items: center;
     margin-top: -5.7%;
 	list-style: none;
 	display: flex;
@@ -48,7 +49,7 @@ nav{
 }
 .menu-horizontal > li > a{
 	display: block;
-	padding: 15px 20px;
+	padding: 6px 20px;
 	color: white;
 	text-decoration: none;
 }
@@ -186,11 +187,7 @@ p{
   .bebas{
     font-family: "Bebas Neue", sans-serif;
 }
-  #usuario{
-    z-index: 0;
-    position: absolute;
-    margin-top: -4%;
-}
+
 #fondo{ 
  top: 50%;
  left: 25%;
@@ -202,4 +199,10 @@ p{
 .imgfondo{
   width: 100vh;
   opacity: 50%;
+}
+.user{
+  width: 40px;
+}
+.coso{
+  padding-top: -100px;
 }

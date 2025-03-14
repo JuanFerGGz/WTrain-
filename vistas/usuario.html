@@ -46,18 +46,51 @@
 		</ul>
 	</nav>
     <div class="atras"><a href="javascript:history.back()"><img src="../sources/images/atras.png" height="33" width="100" alt="Botón"></a></div>
-
+    <div class="centro">
     <h1>Estás en nivel PRINCIPIANTE</h1>
     <hr>
+</div><br><br>
+    <section class="info">
+        <div class="panel">
+            <div class="imagenn">
+            <img class="imagennn" src="../sources/images/usuario.png" alt=""></div>
+            <h1>Nombre</h1>
+            <div class="desc">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint consequuntur ipsa sunt. Quis assumenda a tenetur minima. Consequuntur, magni hic.</p>
+        </div>
+        </div>
 
-    <section class="info"></section>
+        <div class="panel">
+            <div class="imagenn">
+            <img class="imagennn" src="../sources/images/e.png" alt=""></div>
+            <h1>Progreso del módulo</h1>
+            <div class="desc">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint consequuntur ipsa sunt. Quis assumenda a tenetur minima. Consequuntur, magni hic.</p>
+            <div class="bar">
+        
+                <div class="progress"></div>
+                <div class="buttons">
+                    <button class="btnVideo" onclick="progreso(25)">video1</button>
+                    <button class="btnVideo" onclick="progreso(25)">video2</button>
+                    <button class="btnVideo" onclick="progreso(25)">video3</button>
+                    <button class="btnVideo" onclick="progreso(25)">video4</button>
+                </div>
+            
+        
+            </div>
+        </div>
+        </div>
+    </section>
 
     <script>
         window.addEventListener('scroll', function() {
-            var imagen = document.getElementById('fondo');
-            var offset = window.pageYOffset; // Obtiene la distancia de desplazamiento de la página
-            imagen.style.transform = 'translateY(' + offset * 0.3 + 'px)'; // La imagen se mueve con el scroll
+            var imagen = document.querySelector('body');
+            var offset = window.pageYOffset; 
+    
+            imagen.style.backgroundPosition = `center ${300+(offset*1)}px`; 
+            console.log(imagen, offset)
         });
+    
     </script>
 
 </body>

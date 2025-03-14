@@ -13,7 +13,7 @@
     <img class="logo" src="../sources/images/logo de lado (2).png" alt="" >
 </header>
 <body>
-
+<div class="wrap">
   <nav class="bebas">
 		<ul class="menu-horizontal">
 			<li><a href="../index.html">Inicio</a></li>
@@ -33,21 +33,21 @@
 			<li>
 				<a href="#">Cerrar sesión</a>
 			</li>
-			<li><a href="#">Contacto</a></li>
-			<li>
+      <li>
 				<a href="#">Otros</a>
 				<ul class="menu-vertical">
 					<li><a href="../vistas/Desarrollo.html">Inicio y Progreso</a></li>
 					<li><a href="../vistas/acerca.html">Sobre nosotros</a></li>
+                    
 			
 				</ul>
 			</li>
+			<li><a class="coso" href="../vistas/usuario.html"><img class="user" src="../sources/images/usuario.png"width="30" alt="Botón"></a></li>
 
 		</ul>
 	</nav>
-  <div id="fondo"><img class="imgfondo" src="../sources/images/La W.png" alt=""></div>
+  
   <div class="atras"><a href="javascript:history.back()"><img src="../sources/images/atras.png" height="33" width="100" alt="Botón"></a></div>
-  <div id="usuario"><a href="../vistas/usuario.html"><img src="../sources/images/usuario.png"width="100" alt="Botón"></a></div>
 
 
   <h1 class="ejercicios">EJERCICIOS</h1>
@@ -353,9 +353,17 @@
   </div>
   </div>
   <hr>
-</section>
+  </div>
+  <script>
+    window.addEventListener('scroll', function() {
+        var imagen = document.querySelector('body');
+        var offset = window.pageYOffset; 
 
-    <script src="../js/ejercicios.js"></script>
-    
+        imagen.style.backgroundPosition = `center ${300+(offset*0.75)}px`; 
+        console.log(imagen, offset)
+    });
+
+</script>
+
 </body>
 </html>

@@ -34,7 +34,7 @@ nav{
 }
 .menu-horizontal > li > a{
 	display: block;
-	padding: 15px 20px;
+	padding: 6px 20px;
 	color: white;
 	text-decoration: none;
 }
@@ -175,3 +175,9 @@ p{
      width: 100vh;
      opacity: 50%;
    }
+   .user{
+    width: 40px;
+  }
+  .coso{
+    padding-top: -100px;
+  }
