@@ -15,7 +15,7 @@ function validarUsuario(e) {
         console.log("Bienvenido")
         user[i].logged = true
         localStorage.setItem("user", JSON.stringify(user))
-       /*  window.location = "..//vistas/Módulos.html" */ 
+         window.location = "..//vistas/usuario.html"
        return
     }
 }

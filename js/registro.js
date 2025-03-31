@@ -19,6 +19,14 @@ function registroDatos(e) {
 
          const users = JSON.parse(localStorage.getItem("user")) || [];
 
+         for (let i = 0; i < users.length; i++) {
+            if (users[i].user === user.user) {
+                alert("el usuario ya existe")
+                return
+            }
+            
+         }
+
         users.push(user)
 
         localStorage.setItem("user" , JSON.stringify(users) )
@@ -30,6 +38,7 @@ function registroDatos(e) {
         formRegistro.appendChild(cajitaMensaje)
 
         formRegistro.reset()
+
 }
 formRegistro.addEventListener("submit", registroDatos)
 
