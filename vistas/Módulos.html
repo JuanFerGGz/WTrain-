@@ -62,29 +62,13 @@
             imagen.style.backgroundPosition = `center ${300+(offset*0.80)}px`; 
             console.log(imagen, offset)
         });
-		const users = JSON.parse(localStorage.getItem("user")) || [];
-const linkCerrar = document.querySelector("#link-cerrar")
-const linkIniciar = document.querySelector("#link-iniciar")
-function verificarUsuario(params) {
-    for (let i = 0; i < users.length; i++) {
-        if (users[i].logged === true) {
-            console.log("puedes cerrar sesion")
-            linkCerrar.style.display = "block"
-            linkIniciar.style.display = "none"
-            return
-        }
-        
-    }
-    console.log("debes iniciar sesion")
-     linkCerrar.style.display = "none"
-    linkIniciar.style.display = "block"
-}
-verificarUsuario()
+
 
 
     </script>
         <script src="../js/bd.js"></script>
     <script src="../js/app.js"></script>
+    <script src="../js/menu.js"></script>
 
 </body>
 </html>

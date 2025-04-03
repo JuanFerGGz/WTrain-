@@ -1,3 +1,8 @@
+
+
+
+
+
 const users = JSON.parse(localStorage.getItem("user")) || [];
 const linkCerrar = document.querySelector("#link-cerrar")
 const linkIniciar = document.querySelector("#link-iniciar")
@@ -11,23 +16,23 @@ function verificarUsuario() {
             /* linkCerrar.style.display = "block"
             linkIniciar.style.display = "none" */
             menuHorizontal.innerHTML = `
-                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="../index.html">Inicio</a></li>
 			    <li>
 				
-				<a id="ver-modulos" href="./vistas/Módulos.html">Módulos</a>
+				<a id="ver-modulos" href="../vistas/Módulos.html">Módulos</a>
 				<ul class="menu-vertical">
-					<li><a href="./vistas/fitness.html">Introducción</a></li>
-					<li><a href="./vistas/basicos.html">Básicos</a></li>
-					<li><a href="./vistas/salud.html">Salud</a></li>
-                    <li><a href="./vistas/disponibilidad.html">Disponibilidad</a></li>
-					<li><a href="./vistas/tecnicas1.html">Técnicas 1</a></li>
-					<li><a href="./vistas/personalizacion.html">Personalización</a></li>
-                    <li><a href="./vistas/tecnicas2.html">Técnicas 2</a></li>
-					<li><a href="./vistas/evaluacion.html">Evaluación</a></li>
+					<li><a href="../vistas/fitness.html">Introducción</a></li>
+					<li><a href="../vistas/basicos.html">Básicos</a></li>
+					<li><a href="../vistas/salud.html">Salud</a></li>
+                    <li><a href="../vistas/disponibilidad.html">Disponibilidad</a></li>
+					<li><a href="../vistas/tecnicas1.html">Técnicas 1</a></li>
+					<li><a href="../vistas/personalizacion.html">Personalización</a></li>
+                    <li><a href="../vistas/tecnicas2.html">Técnicas 2</a></li>
+					<li><a href="../vistas/evaluacion.html">Evaluación</a></li>
 				</ul>
 			</li>
 			<li>
-				<a id="link-cerrar" href="./vistas/cerrarsesion.html">Cerrar sesión</a>
+				<a id="link-cerrar" href="../vistas/cerrarsesion.html">Cerrar sesión</a>
 				
 				
 			</li>
@@ -52,10 +57,10 @@ function verificarUsuario() {
     /*  linkCerrar.style.display = "none"
     linkIniciar.style.display = "block" */
     menuHorizontal.innerHTML = `
-                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="../index.html">Inicio</a></li>
 
 			<li>
-				<a id="link-iniciar" href="./vistas/iniciosesion.html">Iniciar sesión</a>
+				<a id="link-iniciar" href="../vistas/iniciosesion.html">Iniciar sesión</a>
 				
 			</li>
 			

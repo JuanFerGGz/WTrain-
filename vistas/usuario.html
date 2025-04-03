@@ -16,33 +16,7 @@
     </header>
     <nav class="bebas">
 		<ul class="menu-horizontal">
-            <li><a href="../index.html">Inicio</a></li>
-			<li>
-				<a href="../vistas/Módulos.html">Módulos</a>
-				<ul class="menu-vertical">
-					<li><a href="../vistas/fitness.html">Introducción</a></li>
-					<li><a href="../vistas/basicos.html">Básicos</a></li>
-					<li><a href="../vistas/salud.html">Salud</a></li>
-                    <li><a href="../vistas/disponibilidad.html">Disponibilidad</a></li>
-					<li><a href="../vistas/tecnicas1.html">Técnicas 1</a></li>
-					<li><a href="../vistas/personalizacion.html">Personalización</a></li>
-                    <li><a href="../vistas/tecnicas2.html">Técnicas 2</a></li>
-					<li><a href="../vistas/evaluacion.html">Evaluación</a></li>
-				</ul>
-			</li>
-			<li>
-                <a id="link-cerrar" href="../vistas/cerrarsesion.html">Cerrar sesión</a>
-				<a id="link-iniciar" href="../vistas/iniciosesion.html">Iniciar sesión</a>
-			</li>
-			<li><a href="#">Contacto</a></li>
-			<li>
-				<a href="#">Otros</a>
-				<ul class="menu-vertical">
-					<li><a href="../vistas/Desarrollo.html">Inicio y Progreso</a></li>
-					<li><a href="../vistas/acerca.html">Sobre nosotros</a></li>
-			
-				</ul>
-			</li>
+
 
 		</ul>
 	</nav>
@@ -83,34 +57,7 @@
         </div>
     </section>
 
-    <script>
-        window.addEventListener('scroll', function() {
-            var imagen = document.querySelector('body');
-            var offset = window.pageYOffset; 
-    
-            imagen.style.backgroundPosition = `center ${300+(offset*1)}px`; 
-            console.log(imagen, offset)
-        });
-        const users = JSON.parse(localStorage.getItem("user")) || [];
-        const linkCerrar = document.querySelector("#link-cerrar")
-        const linkIniciar = document.querySelector("#link-iniciar")
-        function verificarUsuario(params) {
-            for (let i = 0; i < users.length; i++) {
-                if (users[i].logged === true) {
-                    console.log("puedes cerrar sesion")
-                    linkCerrar.style.display = "block"
-                    linkIniciar.style.display = "none"
-                    return
-                }
-                
-            }
-            console.log("debes iniciar sesion")
-             linkCerrar.style.display = "none"
-            linkIniciar.style.display = "block"
-        }
-        verificarUsuario()
-        
-    </script>
+ <script src="../js/menu.js"></script>
     <script src="../js/dashboard.js"></script>
 
 </body>
