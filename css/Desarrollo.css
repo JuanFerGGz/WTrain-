@@ -201,3 +201,22 @@ h1{
   .coso{
     padding-top: -100px;
   }
+  .volver{
+    display: flex;
+    justify-content: center;
+    background-color: #48AE4D;
+    border-radius: 5px;
+  }
+  .siguiente{
+    display: flex;
+    justify-content: center;
+    background-color: #48AE4D;
+    border-radius: 5px;
+  }
+  .volversig{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+  }

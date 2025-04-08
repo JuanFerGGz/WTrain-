@@ -62,8 +62,8 @@ function verificarUsuario() {
 			<li>
 				<a href="#">Otros</a>
 				<ul class="menu-vertical">
-					<li><a href="../vistas/Desarrollo.html">Inicio y Progreso</a></li>
-					<li><a href="../vistas/acerca.html">Sobre nosotros</a></li>
+					<li><a href="./vistas/Desarrollo.html">Inicio y Progreso</a></li>
+					<li><a href="./vistas/acerca.html">Sobre nosotros</a></li>
                     
 			
 				</ul>

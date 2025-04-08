@@ -9,7 +9,9 @@
     background-color: #dbdbdb;
 
 }
-
+.titulos{
+    font-family: "Bebas Neue", sans-serif;
+}
 .formulario{
     width: 50%;
     background-color: #a1a5a5;
