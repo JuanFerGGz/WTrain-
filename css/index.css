@@ -17,7 +17,7 @@ header{
     display: flex;
     justify-content: right;
     z-index: auto;
-    margin-top: -60px;
+
 }
 nav{
 	max-width: 900px;

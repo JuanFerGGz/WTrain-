@@ -14,7 +14,7 @@ header{
   display: flex;
   justify-content: right;
   z-index: auto;
-  margin-top: -60px;
+
 }
 .logo{
     height: 100px;
