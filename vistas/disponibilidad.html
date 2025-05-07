@@ -48,39 +48,40 @@
 			<img src="../sources/images/450_1000.webp" alt="Video 1">
 			<h3>VIDEO SOBRE LA DISPONIBILIDAD Y EL TIEMPO NECESARIO PARA VIVIR FITNESS (grabar)</h3>
 			<p></p>
+				  <!-- Modal para Video 1 -->
+				  <div id="video1" class="modal">
+					<div class="modal-content">
+					  <span class="close" onclick="closeModal('video1')">&times;</span>
+					  <video controls>
+						<source src="../sources/video/Download.mp4" type="video/mp4">
+						Tu navegador no soporta la reproducción de videos.
+					  </video>
+					</div>
+				</div><br><br>
+			</div>
+			<script>
+				window.addEventListener('scroll', function() {
+					var imagen = document.querySelector('body');
+					var offset = window.pageYOffset; 
+			
+					imagen.style.backgroundPosition = `center ${300+(offset*0.90)}px`; 
+					console.log(imagen, offset)
+				});
+				
+			
+			</script>
 		</div>
 		<br>
-		<hr>
+
         <br>
         <div class="volversig">
-       <div class="volver"> <a href="../vistas/Módulos.html">Volver a los módulos</a></div> <div class="siguiente"> <a href="../vistas/basicos.html">Ir al siguiente módulo</a></div>
+       <div class="volver"> <a href="../vistas/Módulos.html">Volver a los módulos</a></div> <div class="siguiente"> <a href="../vistas/tecnicas1.html">Ir al siguiente módulo</a></div>
     </div>
      <br><br>
 
     </section>
 
-	  <!-- Modal para Video 1 -->
-	  <div id="video1" class="modal">
-		<div class="modal-content">
-		  <span class="close" onclick="closeModal('video1')">&times;</span>
-		  <video controls>
-			<source src="../sources/video/Download.mp4" type="video/mp4">
-			Tu navegador no soporta la reproducción de videos.
-		  </video>
-		</div>
-	</div><br><br>
-</div>
-<script>
-	window.addEventListener('scroll', function() {
-		var imagen = document.querySelector('body');
-		var offset = window.pageYOffset; 
 
-		imagen.style.backgroundPosition = `center ${300+(offset*0.90)}px`; 
-		console.log(imagen, offset)
-	});
-	
-
-</script>
 
 	<script src="../js/ejercicios.js"></script>
 	<script src="../js/menu.js"></script>
