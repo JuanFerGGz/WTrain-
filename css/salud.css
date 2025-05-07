@@ -212,3 +212,7 @@ p{
     gap: 20px;
     justify-content: space-around;
   }
+  a{
+    color: white;
+    text-decoration: none;
+  }

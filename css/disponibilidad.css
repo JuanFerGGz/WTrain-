@@ -88,8 +88,9 @@ p{
 }
 .gallery {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 5%;
     padding: 20px;
 
