@@ -9,7 +9,30 @@
     background-position: center 300px;
     background-size: 50%;
   }
+  .video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5%;
+    padding: 20px;
+
+  }
+
+
+  .close {
+    color: #aaa;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 28%;
+    margin-top: -4%;
+    font-size: 240%;
+  }
   
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+  }
   .wrap{
     background-color: #dbdbdbb8;
   }
