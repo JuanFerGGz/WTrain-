@@ -115,6 +115,16 @@ a{
 p{
     font-size: 120%;
 }
+
+  .video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5%;
+    padding: 20px;
+
+  }
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
