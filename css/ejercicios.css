@@ -13,6 +13,10 @@ header{
   z-index: auto;
 
 }
+.contenido{
+  display: flex;
+  justify-content: space-evenly;
+}
 #usuario{
   z-index: 0;
   position: absolute;
