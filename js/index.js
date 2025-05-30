@@ -41,7 +41,7 @@ function verificarUsuario() {
 			
 				</ul>
 			</li>
-			<li><a class="coso" href="./vistas/usuario.html"><img class="user" src="../sources/images/usuario.png"width="30" alt="Botón"></a></li>
+			<li><a class="coso" href="../vistas/usuario.html"><img class="user" src="../sources/images/usuario.png"width="30" alt="Botón"></a></li>
             `
             
             return
