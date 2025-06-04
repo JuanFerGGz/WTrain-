@@ -18,7 +18,17 @@
 
   }
 
-
+.progreso1{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.barra{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
   .close {
     color: #aaa;
     font-weight: bold;

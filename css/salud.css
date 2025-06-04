@@ -9,7 +9,17 @@ body {
   background-position: center 300px;
   background-size: 50%;
 }
-
+.progreso1{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.barra{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
 .wrap{
   background-color: #dbdbdbb8;
 }
