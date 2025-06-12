@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+         .container{
+            position: relative;
+            padding: 1rem;
+            width: 1000px;
+            height: 600px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         .certificate{
+            position: relative;
+            width: 100%;
+            border-radius: 15px;
+            border: 5px solid #48ae4d;
+            background-color: #dbdbdbab;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height:550px;
+            font-family: "Bebas Neue", sans-serif;
+            gap: 2.5%;
+         }
+         .fondo{
+            width: 25%;
+            margin-top: -5%;
+         }
+         .boton{
+            display: flex;
+            justify-content: center;
+         }
+         .firma{
+            border-bottom: solid 1px black;
+            width: 200px;
+            text-align: center;
+         }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="certificate">
+            
+         <img src="./W.png" alt="" class="fondo">
+
+            <h1>Diploma de graduación</h1>
+       
+            <h1>asd</h1>
+       
+            
+            <p>Demostró sus conocimientos en</p>
+            <h2>Fitness y acondicionamiento físico</h2>
+
+            <div class="firma">
+                <p>Juan Gaviria</p>
+            </div>
+            <p>Firma del director</p>
+        </div>
+    </div>
+    <div class="boton">
+    <button id="descargarPDF">Descargar PDF</button>
+    </div>
+
+</body>
+
+<script src="certificado.js"></script>
+</html>
