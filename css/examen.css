@@ -39,6 +39,14 @@ header{
   gap: 20px;
   justify-content: space-around;
 }
+  .bebas{
+    font-family: "Bebas Neue", sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 300%;
+}
 a{
    color: white;
 }
